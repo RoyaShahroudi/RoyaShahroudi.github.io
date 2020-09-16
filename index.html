@@ -2,10 +2,287 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>RoyaShahroudi</title>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic|Carter One' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/queries.css">
+
+    <link rel="icon" href="assets/images/favicon/myWebsiteFavicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="assets/images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="assets/images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-    Hello Word
+    <header class="header">
+        <div class="headerBox">
+            <p id="hey">Hey, I'm</p>
+            <p id="name">Roya Shahroudi</p>
+        </div>
+        <nav>
+          <div class="row">
+              <a class="mobile-nav-icon"><i class="fas fa-bars"></i></a>
+              <ul class="main-nav clearfix">
+                  <li><a class="scroll-to-myStory" href="#myStory">My Story</a></li>
+                  <li><a class="scroll-to-resume" href="#resume">Resume</a></li>
+                  <li><a class="scroll-to-skills" href="#skill">Skills</a></li>
+                  <li><a class="scroll-to-projects" href="#project">Projects</a></li>
+                  <li><a class="scroll-to-contact" href="#contact">Contact</a></li>
+              </ul>
+          </div>
+        </nav>
+    </header>
+<!-- ------- MY STORY ------- -->
+    <section class="myStory">
+        <div id="myStory" class="row div-title">
+            <h2 class="title">My Story</h2>
+        </div>
+        <div class="row myStory-animation">
+            <div class="col-md col-sm-12 col-12">
+                <img id="myStory-img" src="images/workSpace4Website.png" alt="my story">
+            </div> 
+            <div class="col-md col-sm-12 col-12 myStory-content">
+                <h3>Web developer</h3>
+                <p class="myStory-p">
+                  I’m a computer engineering student at the Babol Noshirvani University of Technology. I have a passion for learning new topics.
+                  Art and design are an integral part of my daily life.
+                  Designing and developing this website is one of my first experiences in learning front-end development.
+                </p>
+            </div> 
+        </div>   
+
+    </section>
+<!-- ------- RESUME ------- -->
+    <section class="resume">
+        <div id="resume" class="row div-title">
+            <h2 class="title">Resume</h2>
+        </div>
+        <div class="row resume-animation">
+            <div class="resume-container">
+              <div id="accordion">
+                  
+                  <div class="card">
+                      <div class="card-header" id="headingOne">
+                          <h6 class="mb-0">
+                              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                <i class='fas fa-graduation-cap fa-lg'></i><span>Babol Noshirvani University of Technology</span>
+                              </button>
+                          </h6>
+                      </div>
+                    
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                      <div class="card-body">
+                        <p><i class='fa fa-desktop'>  Computer Engineering</i> <i class="far fa-calendar-check">  2019 - now</i></p>
+                        
+                      </div>
+                    </div>
+                  </div>
+          
+
+                  <div class="card">
+                    <div class="card-header" id="headingTwo">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          <i class='fas fa-graduation-cap fa-lg'></i><span>Gorgan Farzanegan High school</span>
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                      <div class="card-body">
+                        <p><i class='fas fa-calculator'>  Mathematics</i> <i class="far fa-calendar-check">  2016 - 2019</i></p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+
+    </section>
+<!-- ------- SKILLS ------- -->
+    <section class="skill">
+
+        <div id="skill" class="row div-title">
+            <h2 class="title">Skills</h2>
+        </div>
+        <div class="row skills-animation">
+            <div class="skills-container">
+               <ul class="skills-ul">
+                    <li class="skills c">C++<span>2019 - 2020</span></li>
+                    <li class="skills java">JAVA<span>2019 - 2020</span></li>
+                    <li class="skills html">HTML<span>2020 - now</span></li>
+                    <li class="skills css">CSS<span>2020 - now</span></li>
+                    <li class="skills js">JAVASCRIPT<span>2020 - now</span></li>
+                </ul>        
+            </div>
+            
+        </div>
+    </section>
+<!-- ------- PROJECTS ------- -->
+    <section class="projects">
+        <div id="project" class="row div-title">
+            <h2 class="title">Projects</h2>
+        </div>
+        <div class="row">
+          
+
+        <div class="col-12 col-sm project-content">
+          <a href="https://github.com/RoyaShahroudi/puzzle">
+          <div class="projects-title">
+            <h6 class="">Puzzle</h6>
+          </div>
+
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="./assets/images/projects/puzzle/1.jpg" alt="Puzzle 1">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./assets/images/projects/puzzle/2.jpg" alt="Puzzle 2">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./assets/images/projects/puzzle/3.jpg" alt="Puzzle 3">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./assets/images/projects/puzzle/4.jpg" alt="Puzzle 4">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./assets/images/projects/puzzle/5.jpg" alt="Puzzle 5">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./assets/images/projects/puzzle/6.jpg" alt="Puzzle 6">
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-description"> 
+            <p>JavaFX</p>
+          </div>
+       
+        </a>
+        </div>
+
+
+        <div class="col-12 col-sm project-content">
+          <a href="https://github.com/RoyaShahroudi/MedicalApp">
+          <div class="projects-title">
+            <h6 class="">Medical App</h6>
+          </div>
+
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="./assets/images/projects/medicalApp/1.jpg" alt="Medical App 1">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./assets/images/projects/medicalApp/2.jpg" alt="Medical App 2">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./assets/images/projects/medicalApp/3.jpg" alt="Medical App 3">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./assets/images/projects/medicalApp/4.jpg" alt="Medical App 4">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./assets/images/projects/medicalApp/5.jpg" alt="Medical App 5">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./assets/images/projects/medicalApp/6.jpg" alt="Medical App 6">
+              </div>
+            </div>
+          </div>
+
+          <div class="project-description">
+            <p>JavaFX</p>
+          </div>
+          
+          </a>
+        </div>
+
+        <div class="col-12 col-sm project-content">
+          <a href="https://github.com/RoyaShahroudi/boardGame">
+          <div class="projects-title">
+            <h6 class="">Board Game</h6>
+          </div>
+
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="./assets/images/projects/midtermGame/1.jpg" alt="Board Game1">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./assets/images/projects/midtermGame/2.jpg" alt="Board Game2">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./assets/images/projects/midtermGame/3.jpg" alt="Board Game 3">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./assets/images/projects/midtermGame/4.jpg" alt="Board Game 4">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./assets/images/projects/midtermGame/5.jpg" alt="Board Game 5">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./assets/images/projects/midtermGame/6.jpg" alt="Board Game 6">
+              </div>
+            </div>
+          </div>
+
+          <div class="project-description">
+            <p>JavaFX</p>
+          </div>
+        </a>
+        </div>
+          
+
+        </div>
+    </section>
+<!-- ------- CONTACT ------- -->
+    <section class="contact">
+      <div id="contact" class="row">
+        <h2 class="title">Contact</h2>
+      </div> 
+        <div class="row center"><a onclick="showEmail()" id="email-btn" href="mailto:roya.shahroudi20@gmail.com?subject = Feedback&body = Message">
+          If you’d like to get in touch  <i class="fa fa-envelope" aria-hidden="true"></i>
+          </a></div>
+
+        <div class="row center">
+          <span id="email-address">roya.shahroudi20@gmail.com</span>
+        </div>
+
+
+    
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="row">
+        <ul>
+          <li><a href="https://www.instagram.com/roya4sh/"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/roya-shahroudi-2ba268198/"><i class="fab fa-linkedin-in"></i></a></li>
+          <li><a href="https://twitter.com/roya4sh"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="https://dribbble.com/rah-rah"><i class="fab fa-dribbble"></i></a></li>
+        </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="assets/js/jquery-3.5.1.js"></script>
+    <script src="assets/js/jquery.waypoints.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+
 </body>
 </html>
