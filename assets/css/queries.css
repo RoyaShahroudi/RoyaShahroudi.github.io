@@ -1,0 +1,303 @@
+@media only screen and (max-width: 1200px) {
+
+    .row { padding: 0 2%;}
+}
+
+
+@media only screen and (max-width: 1023px) {
+    body { font-size: 19px;}
+
+    .header {
+        height: 70vh;
+    }
+    .contact-form {
+        width: 80%;
+        margin: 40px auto 0;       
+    }
+    .main-nav {
+        margin: 63vh auto auto;
+    }
+    .main-nav li {
+        margin-left: 25px;
+    }
+    #myStory-img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* ------- HEADER ------- */
+    .header .headerBox {
+        top: 40%;
+        left: 26%;
+    }
+
+    .header .headerBox #hey{
+        color: rgb(255, 255, 255);
+        font-size: 100%;
+    }
+    .header .headerBox #name {
+        color: #ffffff;
+        font-size: 200%;
+    }
+
+
+    
+    .btn-link span {
+        font-size: 90%; 
+    }
+    .card-body p i {
+        margin-left: 15%;
+        font-size: 80%;
+    }
+    .contact-form input[type=submit] {    
+        height: 33px;
+        width: 90px;
+    }
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    
+    body { font-size: 17px;}
+    .row { 
+        padding: 0 1%;
+        width: 100%;
+    }
+    section {
+        padding: 20px 0;
+    }
+
+/* ------ MOBILE NAV ------ */
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+    
+    .main-nav {
+        float: left;
+        margin-top: 10px;
+        margin-left: 40px;
+
+        display: none;
+    }
+    
+    .main-nav li {
+        display: block;
+        margin-left: 0;
+        margin-top: 0;
+        
+    }
+    .main-nav li:first-child {
+        padding: 0;
+        margin-top: -27px;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 4px 0 0;
+        font-size: 100%;
+        color: #ffffff;
+    }
+
+/* ------- HEADER ------- */
+.header .headerBox {
+    top: 55%;
+    left: 28%;
+}
+    
+/* ------- STICKY NAV ------- */
+    .sticky {
+        height: auto;
+    }
+    .sticky .main-nav {
+        margin-top: 10px;
+    }
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        color: #ffffff;    
+    }
+    .sticky .main-nav li a:hover,
+    .sticky .main-nav li a:active {
+        color: #00d8d6;
+       border: 0;
+    
+    }
+
+/* ------- MY STORY ------- */
+    .myStory {
+        margin-top: 0;
+    }
+    .myStory-content{
+        margin-top: 20px;
+    }
+
+/* ------- SKILLS ------- */
+    .skills-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+/* ------- RESUME ------- */
+    .resume-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .btn-link span {
+        font-size: 85%; 
+    }
+    .btn-link i {
+        margin-right: 3%;
+        color: #00c0bd;
+        font-size: 94%;
+    }
+    .card-body p i {
+        margin-left: 15%;
+        font-size: 80%;
+    }
+
+    /* ------- CONTACT ------- */
+    .contact-form {
+        width: 930%;
+        margin: 40px auto 0;
+        font-size: 90%;       
+    }
+    .contact-form input[type=submit] {    
+        height: 30px;
+        width: 80px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 576px) {
+    
+
+    body { font-size: 16px;}
+    .row { 
+        padding: 0 0.4%;
+        width: 100%;
+        padding-right: 11px;
+    }
+    section {
+        padding: 5px 0;
+    }
+/* ------- HEADER ------- */
+    .header .headerBox {
+        left: 33%;
+    }
+
+/* ------- RESUME ------- */
+
+    .resume-container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .card-header .btn {
+        color: #424242;
+        font-size: 15px;
+        transition: 0.3s;
+    }
+    
+    #accordion .card .card-header .mb-0:hover {
+        margin-left: 10px;
+    }
+
+
+/* ------- PROJECT ------- */
+    .slide {
+        margin: 5px auto 20px;
+        width: 70%;
+        
+    }
+
+
+/* ------- CONTACT ------- */
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 85%;
+        border: 0;
+        margin: 0 auto;
+        box-shadow: 1px 1px 2px #458d8c;
+        margin-left: 5%;
+    
+    }
+    .contact-form input:last-child {
+        margin-left: 6%;
+    }
+  
+    .contact-label {
+        margin-bottom: 5px;
+        font-size: 80%;
+        margin-left: 6%;
+    }
+    ::placeholder {
+        font-size: 70%;
+    }
+
+
+
+    #email-address {
+        margin: 20px auto 10px;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    
+    body { font-size: 15px;}
+    .row { 
+        padding: 0 0.3%;
+        width: 100%;
+        padding-right: 10px;
+    }
+    section {
+        padding: 4px 0;
+    }
+
+    /* ------- HEADER ------- */
+    
+    .header .headerBox {
+        left: 40%;
+        right: auto;
+
+    }
+    .header .headerBox #hey{
+        font-size: 90%;
+    }
+    .header .headerBox #name {
+        font-size: 170%;
+    }
+
+    .card-header .btn {
+        font-size: 14px;
+    }
+
+    #accordion .card .card-header .mb-0 {
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    #accordion .card .card-header .mb-0:hover {
+        margin-left: 7px;
+    }
+
+    .card-header .btn[aria-expanded=true],
+    .card-header .btn:hover {
+        text-decoration: none;
+        color: #00c0bd;
+        margin-left: 7px;
+    }
+    .card-header .btn[aria-expanded=false] {
+        text-decoration: none;
+    }
+    .btn-link i {
+        margin-right: 1%;
+        color: #00c0bd;
+    }
+
+
+
+}
+
