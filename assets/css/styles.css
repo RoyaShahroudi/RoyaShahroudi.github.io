@@ -319,7 +319,7 @@ li.c:after {
 
 @keyframes c {
     to {
-        width: 60%;
+        width: 50%;
     }
 }
 
@@ -329,7 +329,7 @@ li.java:after {
 
 @keyframes java {
     to {
-        width: 60%;
+        width: 50%;
     }
 }
 
@@ -349,7 +349,7 @@ li.css:after {
 
 @keyframes css {
     to {
-        width: 80%;
+        width: 70%;
     }
 }
 
@@ -359,7 +359,7 @@ li.js:after {
 
 @keyframes js {
     to {
-        width: 60%;
+        width: 50%;
     }
 }
 
